@@ -209,7 +209,7 @@ export default function NavbarHome({ theme, toggleTheme }: NavbarProps) {
                         
                         {/* Admin Dashboard Link */}
                         {(userData?.role === 'admin' || userData?.isAdmin) && (
-                          <Link href="https://wow-frontedn-y73e.vercel.app/admin/dashboard" className={`flex items-center gap-3 px-4 py-2 text-sm transition-colors ${theme === 'light' ? 'text-gray-700 hover:bg-gray-100' : 'text-gray-300 hover:bg-white/10'}`} onClick={() => setIsProfileMenuOpen(false)}>
+                          <Link href="https://www.wowlifestyle.online//admin/dashboard" className={`flex items-center gap-3 px-4 py-2 text-sm transition-colors ${theme === 'light' ? 'text-gray-700 hover:bg-gray-100' : 'text-gray-300 hover:bg-white/10'}`} onClick={() => setIsProfileMenuOpen(false)}>
                             <User size={16} /><span>Admin Dashboard</span>
                           </Link>
                         )}
@@ -247,7 +247,7 @@ export default function NavbarHome({ theme, toggleTheme }: NavbarProps) {
                 ))}
                 
                 {isLoggedIn && (userData?.role === 'admin' || userData?.isAdmin) && (
-                  <Link href="https://wow-frontedn-y73e.vercel.app/admin/dashboard" className={`block px-4 py-3 text-lg font-semibold rounded-lg transition-all ${theme === 'light' ? 'text-gray-800 hover:bg-gray-100' : 'text-gray-200 hover:bg-white/10'}`} onClick={() => setIsMobileMenuOpen(false)}>Admin Dashboard</Link>
+                  <Link href="https://www.wowlifestyle.online//admin/dashboard" className={`block px-4 py-3 text-lg font-semibold rounded-lg transition-all ${theme === 'light' ? 'text-gray-800 hover:bg-gray-100' : 'text-gray-200 hover:bg-white/10'}`} onClick={() => setIsMobileMenuOpen(false)}>Admin Dashboard</Link>
                 )}
                 
                 {isLoggedIn && (
