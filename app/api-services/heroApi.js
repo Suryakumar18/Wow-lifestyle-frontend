@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "https://wow-lifestyle-backend.onrender.com";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com";
 
 const heroApi = {
   // Get active hero section (public)

@@ -97,7 +97,7 @@ const BentoGrid = memo(({ theme, isPreview = false, previewData = [] }: BentoGri
 
     const fetchItems = async () => {
       try {
-        const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+        const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
         const response = await fetch(`${API_URL}/bentogrid`);
         const result = await response.json();
         

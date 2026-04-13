@@ -9,7 +9,7 @@ import ContactPage, { ContactData } from '../../../app/services/ContactPage';
 
 // FIX: Pointing to your local backend for testing!
 // Change port 5000 if your node server runs on a different port.
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 
 

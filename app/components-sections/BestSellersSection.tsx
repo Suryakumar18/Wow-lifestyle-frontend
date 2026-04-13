@@ -6,7 +6,7 @@ import { Zap, Heart, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 // Define your backend API URL here
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 export interface BestSellerItem {
   id: string | number;

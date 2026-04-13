@@ -24,7 +24,7 @@ interface ContactPageProps {
   previewData?: ContactData;
 }
 
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 export default function ContactPage({ isOpen, onClose, isDarkMode, isPreview = false, previewData }: ContactPageProps) {
   const [mounted, setMounted] = useState(false);

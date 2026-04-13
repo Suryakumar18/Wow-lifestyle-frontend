@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { AlertCircle, CheckCircle } from 'lucide-react';
 
 // Define your backend API URL here
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 export interface CartItem {
   img?: string;

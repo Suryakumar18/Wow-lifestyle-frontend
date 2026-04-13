@@ -6,7 +6,7 @@ import { ArrowRight, Zap, Play, Pause, Volume2, VolumeX, Loader2, AlertCircle } 
 import axios from 'axios';
 
 // API Configuration
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 interface Video {
   _id: string;

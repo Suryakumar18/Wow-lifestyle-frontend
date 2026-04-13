@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { Star, Baby, Zap, Trophy, Sparkles, Building2, Wand2, Gauge, Loader2 } from 'lucide-react';
 
 // Define your backend API URL here
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 // Map string names from DB to actual Icon components
 const ICON_MAP: Record<string, React.ElementType> = {

@@ -10,7 +10,7 @@ import {
 import Layout from '../layout/layout';
 
 // Define your backend API URL here
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 interface OrderItem {
   productId: string;

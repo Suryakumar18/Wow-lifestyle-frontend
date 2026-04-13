@@ -8,7 +8,7 @@ import axios from 'axios';
 // Updated to named import
 import ToyBlogLifestyle from '../../about/ToyBlogLifestyle';
 
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 const axiosInstance = axios.create({ baseURL: API_URL, headers: { 'Content-Type': 'application/json' } });
 
 axiosInstance.interceptors.request.use((config) => {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 // Define types
 export interface TrendingVideo {

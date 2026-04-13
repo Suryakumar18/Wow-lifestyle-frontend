@@ -203,7 +203,7 @@ export default function CheckoutPage() {
       };
 
       // FIXED URL HERE: Pointing to your production backend
-      const response = await fetch('https://wow-lifestyle-backend.onrender.com/api/payment/initiate', {
+      const response = await fetch('https://wow-lifestyle-backend-1.onrender.com/api/payment/initiate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(orderPayload)

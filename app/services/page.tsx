@@ -51,7 +51,7 @@ export default function ServicesPage(props: any) {
 
     const fetchData = async () => {
       try {
-        const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+        const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
         const response = await fetch(`${API_URL}/services`);
         const result = await response.json();
         

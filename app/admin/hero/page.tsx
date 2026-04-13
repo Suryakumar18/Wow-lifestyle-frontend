@@ -24,7 +24,7 @@ interface HeroContent {
 }
 
 // API Configuration
-const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
 
 // Create axios instance with interceptors
 const axiosInstance = axios.create({

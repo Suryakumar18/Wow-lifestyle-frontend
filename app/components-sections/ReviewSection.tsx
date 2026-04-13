@@ -41,7 +41,7 @@ const ReviewSection = memo(({ theme = 'dark', isPreview = false, previewData }: 
 
     const fetchData = async () => {
       try {
-        const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+        const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
         const response = await fetch(`${API_URL}/reviews`);
         const result = await response.json();
         

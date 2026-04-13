@@ -100,7 +100,7 @@ export default function AdminProductPage() {
       const rawToken = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
       const token = rawToken ? rawToken.replace(/['"]+/g, '') : null;
       
-      const response = await fetch(`https://wow-lifestyle-backend.onrender.com/api/admin/categories`, {
+      const response = await fetch(`https://wow-lifestyle-backend-1.onrender.com/api/admin/categories`, {
         headers: token ? { 'Authorization': `Bearer ${token}` } : {},
       });
       const data = await response.json();
@@ -120,7 +120,7 @@ export default function AdminProductPage() {
       
       const timestamp = new Date().getTime();
       // FIXED URL HERE: Added the full base URL
-      const response = await fetch(`https://wow-lifestyle-backend.onrender.com/api/admin/products?t=${timestamp}`, {
+      const response = await fetch(`https://wow-lifestyle-backend-1.onrender.com/api/admin/products?t=${timestamp}`, {
         method: 'GET',
         headers: { 
           'Authorization': `Bearer ${token}`,
@@ -266,7 +266,7 @@ export default function AdminProductPage() {
       const rawToken = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
       const token = rawToken ? rawToken.replace(/['"]+/g, '') : null;
 
-      const response = await fetch(`https://wow-lifestyle-backend.onrender.com/api/admin/products/${productToDelete}`, {
+      const response = await fetch(`https://wow-lifestyle-backend-1.onrender.com/api/admin/products/${productToDelete}`, {
         method: 'DELETE',
         headers: { 'Authorization': `Bearer ${token}` }
       });
@@ -313,8 +313,8 @@ export default function AdminProductPage() {
       }
 
       const url = isUpdating 
-        ? `https://wow-lifestyle-backend.onrender.com/api/admin/products/${productId}` 
-        : 'https://wow-lifestyle-backend.onrender.com/api/admin/products';
+        ? `https://wow-lifestyle-backend-1.onrender.com/api/admin/products/${productId}` 
+        : 'https://wow-lifestyle-backend-1.onrender.com/api/admin/products';
       const method = isUpdating ? 'PUT' : 'POST';
 
       const response = await fetch(url, {

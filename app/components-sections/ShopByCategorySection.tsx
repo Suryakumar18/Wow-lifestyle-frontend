@@ -49,7 +49,7 @@ const ShopByCategory = memo(({ theme = 'dark', isPreview = false, previewData = 
 
     const fetchItems = async () => {
       try {
-        const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+        const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
         const response = await fetch(`${API_URL}/shopbycategory`);
         const result = await response.json();
         

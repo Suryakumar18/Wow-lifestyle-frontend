@@ -70,7 +70,7 @@ export default function ToyBlogLifestyle({ isPreview = false, previewData = null
 
     const fetchData = async () => {
       try {
-        const API_URL = "https://wow-lifestyle-backend.onrender.com/api";
+        const API_URL = "https://wow-lifestyle-backend-1.onrender.com/api";
         const response = await fetch(`${API_URL}/blog-lifestyle`);
         const result = await response.json();
         if (result.success && result.data) setData(result.data);
